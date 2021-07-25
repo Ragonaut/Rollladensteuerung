@@ -1,5 +1,5 @@
 /*
-  Carstens Rollladentimer hat folgenden Features Stand 25.07.2021
+  Carstens Rollladentimer hat folgenden Features Stand 25.07.2021.
     
     Sommer- / Winterzeit
           - Die Umstellung Sommer-/Winterzeitumstellung erfolgt automatisch. Die Umstellungstage sind bis 2025 eingegeben.
