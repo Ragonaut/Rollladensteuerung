@@ -1,5 +1,5 @@
 /*
-  Carstens Rollladentimer hat folgenden Features:
+  Carstens Rollladentimer hat folgenden Features Stand 25.07.2021
     
     Sommer- / Winterzeit
           - Die Umstellung Sommer-/Winterzeitumstellung erfolgt automatisch. Die Umstellungstage sind bis 2025 eingegeben.
@@ -25,7 +25,7 @@
                 - Der RL steht bei 50%, nächster Schaltpunkt "100% nur abwärts":  Wird ausgeführt
                 - Der RL steht bei 50%, nächster Schaltpunkt "30% nur abwärts":   Wird NICHT ausgeführt
                 - Der RL steht bei 50%, nächster Schaltpunkt "30% auf + abwärts": Wird ausgeführt
-            Der Grund für diese Funktion ist schwieig zu erklären: 
+            Der Grund für diese Funktion ist schwierig zu erklären: 
             Durch die sich verändernden Astro Zeiten kann sich die reihenfolge der Timer ändern (Astro Timer wandert
             z.B. vor einen Festzeittimer). Hat der Festzeittimer 50% und der Astrotimer 0% dann fährt der RL normalerweise 
             erst auf 50% (aufwärts) und dann per Astrotimer auf 0% ganz auf. ERGEBNIS: RL ist ganz offen. 
@@ -34,7 +34,7 @@
             In diesem Fall könnte man den Festzeittimer so einstellen, dass er nur aufwärts ausgefüht werden soll. 
     
     Astrofunktion:
-          - Die Sonnenauf- und Sonnenuntergangszeiten für den Astrotimer werden mit Hilfe des Längen- und Breitengrades berechnet 
+          - Die Sonnenauf- und Sonnenuntergangszeiten für die Astrotimer werden mit Hilfe des Längen- und Breitengrades berechnet 
             (und nicht aus Tabellen entnommen.)
           - Die Genauigkeit beträgt rund 2 Minuten
           - Aktuell werden Längen- und Breitengrad von Bauschheim verwendet und können nur im Programmcode geändert werden.
